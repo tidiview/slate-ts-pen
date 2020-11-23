@@ -1,2 +1,2 @@
-# slate-ts-pen
+# typewriter-tsx
 Created with CodeSandbox
