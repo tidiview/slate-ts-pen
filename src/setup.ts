@@ -12,11 +12,11 @@ export const createSlatePen = (editor: Editor) =>
   new SlatePen({
     editor,
     plugins: [
+      createAnchorPlugin(),
       createBasePlugin(),
+      createBrPlugin(),
       createHtmlPlugin(),
       createImgPlugin(),
-      createPicturePlugin(),
-      createAnchorPlugin(),
-      createBrPlugin()
+      createPicturePlugin()
     ]
   });

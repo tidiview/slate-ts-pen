@@ -1,4 +1,4 @@
-import { Button, Card, makeStyles } from "@material-ui/core";
+import { Card, makeStyles } from "@material-ui/core";
 import * as React from "react";
 import { FC, useMemo, useState } from "react";
 import { render } from "react-dom";
@@ -87,6 +87,10 @@ const MyEditor: FC = () => {
         editor={editor}
         slatePen={slatePen}
       />
+    <div>
+        <p>CONTEXT:</p>
+        <pre>{JSON.stringify(value, undefined, 2)}</pre>
+      </div>
     </div>
   );
 };
