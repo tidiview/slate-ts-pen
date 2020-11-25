@@ -87,7 +87,7 @@ const MyEditor: FC = () => {
         editor={editor}
         slatePen={slatePen}
       />
-    <div>
+      <div>
         <p>CONTEXT:</p>
         <pre>{JSON.stringify(value, undefined, 2)}</pre>
       </div>
